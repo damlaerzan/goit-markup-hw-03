@@ -211,6 +211,18 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.footer-box {
+  padding: 100px 0;
+  margin-bottom: 16px;
+}
+.footer-box a {
+  display: inline-block;
+}
+.footer-box p {
+  max-width: 264px;
+}
+
 .footer {
   background-color: #2e2f42;
 }
@@ -222,6 +234,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .footer .text {
   font-size: 16px;
