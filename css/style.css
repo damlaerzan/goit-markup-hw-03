@@ -14,14 +14,18 @@ body {
 }
 .container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 1158px;
   background-color: transparent;
   padding: 0 15px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+.home-navbar {
+  display: flex;
+  align-items: center;
 }
 
 .home-navbar .logo .span {
@@ -34,6 +38,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
+  padding: 24px 0;
 }
 .header-ul .list .etiket:hover,
 .header-ul .list .etiket:focus {
@@ -49,7 +55,7 @@ body {
 }
 .home-navbar .logo {
   text-decoration: none;
-  display: flex;
+  margin-right: 76px;
 }
 .home-navbar li {
   list-style-type: none;
@@ -59,6 +65,7 @@ body {
 }
 address {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address .adres {
@@ -72,14 +79,16 @@ address {
 .adres:focus {
   color: #404bbf;
 }
-.box-sec {
+.one-sec .container {
+  display: block;
   text-align: center;
+  background-color: aqua;
 }
 .one-sec {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.bolum-header {
+.container h1 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -96,7 +105,7 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  display: block;
+
   min-width: 169px;
   height: 56px;
   border: none;
