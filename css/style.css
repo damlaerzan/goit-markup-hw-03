@@ -15,7 +15,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.container {
+.header .container {
   display: flex;
   width: 1158px;
   background-color: transparent;
@@ -82,15 +82,14 @@ address {
 .adres:focus {
   color: #404bbf;
 }
-.one-sec .container {
-  text-align: center;
-  background-color: aqua;
-}
+
 .one-sec {
   background-color: #2e2f42;
   padding: 188px 0;
+  display: flex;
+  justify-content: center;
 }
-.one-sec .container h1 {
+.one-sec .container .bolum-header {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -99,7 +98,6 @@ address {
 }
 .button {
   background-color: #4d5ae5;
-  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -111,6 +109,7 @@ address {
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -166,7 +165,8 @@ address {
 
 .our-team {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-header {
   font-size: 36px;
@@ -235,7 +235,6 @@ address {
 }
 
 .footer .container a {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .footer .container p {
@@ -255,6 +254,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
 }
 .footer .text {
   font-size: 16px;
