@@ -12,6 +12,15 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .home-navbar .logo .span {
   color: #2e2f42;
 }
@@ -21,19 +30,40 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 .header-ul .list .etiket:hover,
 .header-ul .list .etiket:focus {
   color: #404bbf;
 }
+.home-navbar ul {
+  display: flex;
+  gap: 40px;
+}
+.address ul {
+  display: flex;
+  gap: 40px;
+}
+.home-navbar .logo {
+  text-decoration: none;
+  display: flex;
+}
+.home-navbar li {
+  list-style-type: none;
+}
+.address li {
+  list-style-type: none;
+}
 address {
   font-style: normal;
 }
+
 .address .adres {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 .adres:hover,
 .adres:focus {
