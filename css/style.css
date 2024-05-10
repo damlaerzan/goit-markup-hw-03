@@ -80,7 +80,6 @@ address {
   color: #404bbf;
 }
 .one-sec .container {
-  display: block;
   text-align: center;
   background-color: aqua;
 }
@@ -105,6 +104,7 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
 
   min-width: 169px;
   height: 56px;
@@ -114,27 +114,32 @@ address {
 .button:focus {
   background-color: #404bbf;
 }
-.two-sec {
-  padding: 120px 0;
+.section-2 .container {
 }
 .section-2 {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .section-2 h2 {
   visibility: hidden;
   margin-bottom: 8px;
 }
-.section-2 ul {
+.section-2 .container ul {
   display: flex;
   list-style-type: none;
   gap: 24px;
 }
+.section-2 .container :first-child li {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-ul .list .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-ul .list .text {
   font-size: 16px;
@@ -142,8 +147,7 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.three-sec {
-}
+
 .team-id {
   padding: 32px 0;
 }
@@ -155,7 +159,7 @@ address {
   text-align: center;
 }
 
-.three-sec ul {
+.our-team .container ul {
   display: flex;
   list-style-type: none;
   gap: 24px;
@@ -185,9 +189,8 @@ address {
   letter-spacing: 0.02;
   color: #2e2f42;
 }
-.four-sec {
-}
-.four-sec ul {
+
+.section-4 .container ul {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
@@ -197,6 +200,7 @@ address {
 .section-4 {
   background-color: #ffffff;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-header {
   font-size: 36px;
@@ -232,19 +236,19 @@ address {
   margin-bottom: 8px;
 }
 
-.footer-box {
+.footer .container {
+}
+.footer .container a {
+  display: inline-block;
   margin-bottom: 16px;
 }
-.footer-box a {
-  display: inline-block;
-}
-.footer-box p {
+.footer .container p {
   max-width: 264px;
 }
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 .footer .logo {
   font-family: "Raleway", sans-serif;
