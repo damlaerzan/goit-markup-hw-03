@@ -176,6 +176,9 @@ address {
   display: flex;
   gap: 24px;
 }
+.two-sec .section-ul .list {
+  width: calc((100% -72px) / 4);
+}
 
 .section-ul .list .subtitle {
   font-weight: 500;
@@ -213,8 +216,9 @@ address {
   justify-content: center;
 }
 .our-team .section-ul {
-  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  width: calc((100% -72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team .subtitle {
   font-weight: 500;
